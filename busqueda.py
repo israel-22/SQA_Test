@@ -38,4 +38,11 @@ arr.sort()
 print(busqueda_binaria_iterativa(arr, 22))
 print(busqueda_binaria_recursiva(arr, 22, 0, len(arr) - 1))
 
-
+#burbuja
+def burbuja(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
