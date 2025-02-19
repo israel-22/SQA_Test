@@ -1,0 +1,32 @@
+(.venv) PS C:\Users\ItsqmetEstudiantes.DESKTOP-G04UT9C\Documents\SQA\Semana_1> .\v:/Users/ItsqmetEstudiantes.DESKTOP-G04UT9C/Documents/SQA/Semana_1/.venv/Scripts/penv\Scripts\activate                                                              calculadora.py
+.\venv\Scripts\activate : El término '.\venv\Scripts\activate' no se reconoce     est test_calculadora.py
+como nombre de un cmdlet, función, archivo de script o programa ejecutable.       n starts =======================================================================
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,  
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ .\venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\venv\Scripts\activate:String) [
+   ], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(.venv) PS C:\Users\ItsqmetEstudiantes.DESKTOP-G04UT9C\Documents\SQA\Semana_1> pip list
+Package    Version
+---------- -------
+colorama   0.4.6
+iniconfig  2.0.0
+packaging  24.2
+pip        25.0.1
+pluggy     1.5.0
+pytest     8.3.4
+setuptools 65.5.0
+(.venv) PS C:\Users\ItsqmetEstudiantes.DESKTOP-G04UT9C\Documents\SQA\Semana_1> pytest test_calculadora.py
+============================== test session starts ==============================
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0
+rootdir: C:\Users\ItsqmetEstudiantes.DESKTOP-G04UT9C\Documents\SQA\Semana_1
+collected 4 items
+
+test_calculadora.py ....                                                   [100%]
+
+=============================== 4 passed in 0.02s ===============================
+(.venv) PS C:\Users\ItsqmetEstudiantes.DESKTOP-G04UT9C\Documents\SQA\Semana_1>
